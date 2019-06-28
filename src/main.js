@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './assets/styles/reset.css'
+import './assets/styles/border.css'
+// 移动端不同尺寸手机一像素边框显示不同的解决方案
 
 Vue.config.productionTip = false
 
